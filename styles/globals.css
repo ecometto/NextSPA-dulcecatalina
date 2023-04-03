@@ -1,0 +1,60 @@
+html {
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 70px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.fondo {
+  background: linear-gradient(to right, rgb(49, 49, 122), GREY);
+  margin: 0px;
+}
+
+.title{
+  text-align: center;
+  font-weight: 600 ;
+}
+.margin{
+  padding-top: 80px;
+}
+.margin-b{
+  padding-bottom: 100px;
+}
+
+#carouselExampleControls{
+  background-color: rgba(230,230,230,1);
+  padding: 20px;
+}
+
+.carousel-inner{
+  margin: auto;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.carousel-item img{
+  max-height: 200px;
+}
+
+.carousel-item p{
+  height: 50px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  height: 4rem !important; 
+  width: 4rem !important;
+}
+
+ul, li {
+  list-style: none;
+}
